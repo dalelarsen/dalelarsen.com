@@ -1,0 +1,71 @@
+@import "../../node_modules/react-typist/dist/Typist.css";
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+@import "../css/vars.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+a, .link {
+  color: $green;
+  cursor: pointer;
+}
+
+Link {
+  cursor: pointer;
+}
+
+.main-container {
+  margin: 0;
+  padding: 0;
+}
+
+
+.below-fold {
+
+  .container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .container > .container-fluid {//prevent double 
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .container-fluid {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .container-fluid > .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  h2 {
+    color: $blue;
+  }
+
+  h5 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+
+}
+
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 20px 0;
+  background: $gray-900;
+  color: $white;
+}
+

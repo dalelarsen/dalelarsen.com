@@ -1,0 +1,36 @@
+@import "../../css/vars.scss";
+
+.stack-container {
+    background: linear-gradient(30deg, rgba(110, 110, 110, 1) 0%, rgba(80, 80, 80, 1) 60%);
+
+    h2 {
+        color: $green;
+        text-align: center;
+    }
+
+    .row:first-child {
+        margin-bottom: 60px;
+    }
+
+    .stack-col {
+        // max-width: 25%;
+        color: $white;
+        text-align: center;
+        margin-bottom: 30px;
+
+        .skill-title {
+            font-size: 1.2em;
+        }
+
+        svg {
+            font-size: 60px;
+            margin-bottom: 5px;
+        }
+
+        .java-icon {
+            color: rgb(248, 154, 21);
+            // background: -webkit-gradient(linear, left top, left bottom, from(#f89a15), to(#5283a3));
+            // background: linear-gradient(30deg, rgba(80, 80, 80, 1) 0%, rgba(60, 60, 60, 1) 60%);
+        }
+    }
+}

@@ -1,21 +1,41 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+// import { Link } from "gatsby";
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import Image from "../components/image";
+import SEO from "../components/seo";
+import Intro from "../components/intro/intro";
+import About from "../components/about/about";
+import Stack from "../components/stack/stack";
+import Projects from "../components/projects/projects";
+
 
 const IndexPage = () => (
+
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+
+    <SEO title="Dale Larsen, Javascript Developer" />
+
+    <Intro />
+
+    <div className="below-fold">
+
+      <About />
+
+      <Stack />
+
+      <Projects />
+
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+
+    {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+      <img className="img-fluid" src={Logo} alt="logo" />
+    </div> */}
+
+    {/* <Link to="/page-2/">Go to page 2</Link> */}
+
   </Layout>
+
 )
 
 export default IndexPage
