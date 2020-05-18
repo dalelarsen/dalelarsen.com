@@ -1,0 +1,17 @@
+@import "../../css/vars.scss";
+
+.work-container {
+    background: rgb(240,255,189);
+    background: linear-gradient(144deg, rgba(200,200,200,0.5) 0%, rgba(230,230,230,1) 80%) !important;
+
+    h2 {
+        text-align: center;
+    }
+
+    h4 {
+        color: $green;
+    }
+    h4:not(:first-child) {
+        margin-top: 40px;
+    }
+}

@@ -34,11 +34,18 @@ class About extends React.Component {
           <p>I am self-taught and have been running a web development company for over {proYears} years.</p>
 
           <Row>
-            <Col><Button variant="primary" size="lg" block onClick={() => scrollToElement('#stack', {
+            <Col><Button variant="primary" size="lg" block onClick={() => scrollToElement('#work', {
+              offset: -20,
+              ease: 'in-out-quad',
+              duration: 300
+            })}>Work History</Button>{' '}</Col>
+
+            <Col><Button variant="info" size="lg" block onClick={() => scrollToElement('#stack', {
               offset: -20,
               ease: 'in-out-quad',
               duration: 300
             })}>Skills</Button>{' '}</Col>
+
             <Col><Button variant="success" size="lg" block onClick={() => scrollToElement('#projects', {
               offset: -20,
               ease: 'in-out-quad',

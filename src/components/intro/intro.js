@@ -28,7 +28,7 @@ class Intro extends React.Component {
 
             <img className="img-fluid intro-img" src={Logo} alt="logo" />
 
-            <Typist>
+            <Typist stdTypingDelay={15}>
 
               <span>Hi!</span>
 
@@ -46,7 +46,7 @@ class Intro extends React.Component {
               <span>,<br /> Senior Full Stack Web Developer</span>
               <Typist.Delay ms={500} />
 
-              <span>,<br /> Technology Business Leader</span>
+              <span>,<br /> Technology Business Leader.</span>
 
             </Typist>
 
@@ -60,7 +60,7 @@ class Intro extends React.Component {
 
             <Typist cursor={{ show: false }}>
 
-              <Typist.Delay ms={9000} />
+              <Typist.Delay ms={12000} />
               <span>learn more</span>
 
             </Typist>

@@ -6,6 +6,7 @@ import Image from "../components/image";
 import SEO from "../components/seo";
 import Intro from "../components/intro/intro";
 import About from "../components/about/about";
+import Work from "../components/work/work";
 import Stack from "../components/stack/stack";
 import Projects from "../components/projects/projects";
 
@@ -21,6 +22,8 @@ const IndexPage = () => (
     <div className="below-fold">
 
       <About />
+
+      <Work />
 
       <Stack />
 

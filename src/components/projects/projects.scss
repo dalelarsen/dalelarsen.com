@@ -3,6 +3,8 @@
 .projects-container {
     background: linear-gradient(30deg, rgba(110, 110, 110, 1) 0%, rgba(3, 80, 105, 1) 60%);
 
+    color: $white;
+
     h2 {
         color: $green;
         text-align: center;
@@ -11,5 +13,7 @@
     .row:first-child {
         margin-bottom: 60px;
     }
+
+    
 
 }

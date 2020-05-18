@@ -34,6 +34,12 @@ class Stack extends React.Component {
               <h2>Projects</h2>
             </Col>
           </Row>
+
+          <Row>
+            <Col>
+              <h5 style={{textAlign: 'center'}}>Coming soon...</h5>
+            </Col>
+          </Row>
           
           
         </Container>
