@@ -39,8 +39,10 @@
     margin-top: 15px;
 }
 
-@media (max-width: 768px) {//mobile
+@media (max-width: 768px) {
+    //mobile
     .intro-middle {
         font-size: 18px;
+        min-width: 90%;
     }
 }
