@@ -1,10 +1,22 @@
 @import "../../css/vars.scss";
 
 .about-container {
-    background: rgb(240,255,189);
-    background: linear-gradient(144deg, rgba(240,255,189,0.4) 0%, rgba(255,255,255,1) 80%) !important;
+    background: rgb(240, 255, 189);
+    background: linear-gradient(144deg, rgba(240, 255, 189, 0.4) 0%, rgba(255, 255, 255, 1) 80%) !important;
 
     h2 {
         text-align: center;
+    }
+
+    .about-btns {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .about-btns {
+        svg {
+            margin-left: 15px;
+            margin-top: -4px;
+        }
     }
 }
