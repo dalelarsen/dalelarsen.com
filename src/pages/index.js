@@ -9,6 +9,7 @@ import About from "../components/about/about";
 import Work from "../components/work/work";
 import Stack from "../components/stack/stack";
 import Projects from "../components/projects/projects";
+import Contact from "../components/contact/contact";
 
 
 const IndexPage = () => (
@@ -28,6 +29,8 @@ const IndexPage = () => (
       <Stack />
 
       <Projects />
+
+      <Contact />
 
     </div>
 
