@@ -1,0 +1,20 @@
+{
+    "name": "EEGInfo Mobile",
+    "order": 6,
+    "description": "Mobile app for the EEGInfo Chatboard. Features include post, comment, like, follow/unfollow, notifications, short message prompts, and more.",
+    "images": ["eegmobile"],
+    "tech": {
+        "fe": [
+            "Ionic 4",
+            "Angular",
+            "CSS",
+            "HTML"
+        ],
+        "be": [
+            "Java",
+            "JavaEE",
+            "AWS",
+            "MySQL"
+        ]
+    }
+}

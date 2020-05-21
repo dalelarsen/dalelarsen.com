@@ -1,0 +1,20 @@
+{
+    "name": "Central Member Management",
+    "order": 9,
+    "description": "Member management tool for managing all aspects of custom member integration needs and support.",
+    "images": ["cmm"],
+    "tech": {
+        "fe": [
+            "Javascript",
+            "AngularJS",
+            "CSS/Bootstrap",
+            "HTML"
+        ],
+        "be": [
+            "Java",
+            "JavaEE",
+            "AWS",
+            "MySQL"
+        ]
+    }
+}

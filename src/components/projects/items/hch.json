@@ -1,0 +1,10 @@
+{
+    "name": "Heritage Craft Homes Website",
+    "description": "HeritageCraftHomes.com website for local home builder. Features home plans, communities, contact form, and other pages.",
+    "images": ["hch"],
+    "order": 7,
+    "tech": {
+        "fe": ["ReactJS", "Gatsby", "SCSS", "Bootstrap", "HTML5"],
+        "be": ["Contentful", "GraphQL", "Netlify"]
+    }
+}

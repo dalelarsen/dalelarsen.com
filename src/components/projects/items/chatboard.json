@@ -1,0 +1,23 @@
+{
+    "name": "EEGInfo Chatboard",
+    "order": 2,
+    "description": "Fully custom professional discussion board. Features include posting new messages, commenting, liking, follow/unfollow, attachments, notifications, access restrictions, best answer, integration with a mailing list, search with custom filtering, edit post/comment, member profiles, and more.",
+    "images": [
+        "eegchat1",
+        "eegchat2"
+    ],
+    "tech": {
+        "fe": [
+            "Javascript",
+            "AngularJS",
+            "CSS/Bootstrap",
+            "HTML"
+        ],
+        "be": [
+            "Java",
+            "JavaEE",
+            "AWS",
+            "MySQL"
+        ]
+    }
+}

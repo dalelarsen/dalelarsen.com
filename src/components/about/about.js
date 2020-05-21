@@ -1,7 +1,7 @@
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 // import PropTypes from "prop-types";
 import React from "react";
-import Typist from 'react-typist';
+// import Typist from 'react-typist';
 import scrollToElement from "scroll-to-element";
 
 //Images
@@ -12,7 +12,7 @@ import scrollToElement from "scroll-to-element";
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 //Icons
-import { FaArrowDown, FaBriefcase, FaListUl } from 'react-icons/fa';
+// import { FaArrowDown, FaBriefcase, FaListUl } from 'react-icons/fa';
 
 import './about.scss';
 

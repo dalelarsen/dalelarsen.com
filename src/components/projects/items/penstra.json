@@ -1,0 +1,10 @@
+{
+    "name": "Penstra",
+    "description": "Fully featured online writing software. Features include chapter/scene organization, outlining, plotting, characters/locations/other notes, character/location/other note detection in chapters/scenes, autosave, auto revision history, export, DropBox/Google Drive backups, notes, feedback, word count and stats, mobile app, and much more.",
+    "images": ["penstra1"],
+    "order": 1,
+    "tech": {
+        "fe": ["Javascript", "Angular", "Angular Material", "CSS", "HTML5"],
+        "be": ["Firebase", "Java", "AWS", "Stripe"]
+    }
+}

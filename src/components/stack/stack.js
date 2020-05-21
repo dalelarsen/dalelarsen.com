@@ -1,8 +1,8 @@
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 // import PropTypes from "prop-types";
 import React from "react";
-import Typist from 'react-typist';
-import scrollToElement from "scroll-to-element";
+// import Typist from 'react-typist';
+// import scrollToElement from "scroll-to-element";
 
 //Images
 // import Logo from '../../images/logo.png';
@@ -16,7 +16,7 @@ import { FaJsSquare, FaAngular, FaReact, FaJava, FaCss3Alt, FaNodeJs, FaHtml5, F
 import { DiJqueryLogo, DiPhotoshop, DiMongodb, DiFirebase, DiScrum } from 'react-icons/di';
 import { GrMysql } from 'react-icons/gr';
 import { IoLogoIonic } from 'react-icons/io';
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import typescriptIcon from '@iconify/icons-logos/typescript-icon';
 
 import './stack.scss';
@@ -130,8 +130,6 @@ class Stack extends React.Component {
       icon: <DiScrum style={{ color: '#016cbb' }} />,
       experienceYr: 2013
     }];
-
-    const proYears = new Date().getFullYear() - 2008;
 
     return (
 

@@ -1,26 +1,23 @@
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 // import PropTypes from "prop-types";
 import React from "react";
-import Typist from 'react-typist';
-import scrollToElement from "scroll-to-element";
+// import scrollToElement from "scroll-to-element";
 
 //Images
 // import Logo from '../../images/logo.png';
 
 //React Bootstrap
 // import Jumbotron from 'react-bootstrap/Jumbotron';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 //Icons
-import { FaArrowDown } from 'react-icons/fa';
+// import { FaArrowDown } from 'react-icons/fa';
 
 import './work.scss';
 
 class Work extends React.Component {
 
   render() {
-
-    const proYears = new Date().getFullYear() - 2008;
 
     return (
 

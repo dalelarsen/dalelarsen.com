@@ -1,0 +1,10 @@
+{
+    "name": "Mark Steinberg Articles",
+    "description": "Mark Steinberg's \"Reality Reports\". A custom article delivery platform that stores and gives access to written articles. Features include pay to access single articles, pay for lifetime access, free access when the intial email goes out and only when it is the most recent article.",
+    "images": ["steinarticles"],
+    "order": 9,
+    "tech": {
+        "fe": ["Javascript", "VueJS", "CSS/Bootstrap", "HTML5"],
+        "be": ["Java", "JavaEE", "MySQL", "AWS"]
+    }
+}

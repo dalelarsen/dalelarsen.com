@@ -1,0 +1,10 @@
+{
+    "name": "The Listening Program Online",
+    "description": "TLP Online is an online audio streaming service that delivers neuroscience based music programs for brain training. The program delivers audio to listeners following a schedule. Features include high quality audio streaming, listening history, listening logs, mood tracking, reporting, custom schedules, solor and group listening, clinician oversight, affiliate tracking and reporting, etc.",
+    "images": ["tlp2", "tlp1"],
+    "order": 4,
+    "tech": {
+        "fe": ["Javascript", "jQuery", "CSS", "HTML"],
+        "be": ["Java", "Spring MVC", "MySQL", "AWS", "S3/Cloudfront"]
+    }
+}

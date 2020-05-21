@@ -1,0 +1,10 @@
+{
+    "name": "Shopify Store",
+    "description": "Themed Shopify store with custom integrations.",
+    "images": ["eegshopify"],
+    "order": 8,
+    "tech": {
+        "fe": ["Shopify", "Liquid"],
+        "be": ["EEGInfo NodeJS API", "Shopify"]
+    }
+}

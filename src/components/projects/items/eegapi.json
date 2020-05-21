@@ -1,0 +1,10 @@
+{
+    "name": "EEGInfo NodeJS API",
+    "description": "NodeJS API for new services for EEGInfo.",
+    "images": ["eegapi"],
+    "order": 5,
+    "tech": {
+        "fe": ["None"],
+        "be": ["NodeJS", "TypeScript", "Mocha", "Chai", "MySQL", "Heroku"]
+    }
+}

@@ -2,7 +2,7 @@ import React from "react";
 // import { Link } from "gatsby";
 
 import Layout from "../components/layout";
-import Image from "../components/image";
+// import Image from "../components/image";
 import SEO from "../components/seo";
 import Intro from "../components/intro/intro";
 import About from "../components/about/about";
@@ -33,12 +33,6 @@ const IndexPage = () => (
       <Contact />
 
     </div>
-
-    {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <img className="img-fluid" src={Logo} alt="logo" />
-    </div> */}
-
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
 
   </Layout>
 

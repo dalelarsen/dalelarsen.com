@@ -1,7 +1,8 @@
 @import "../../css/vars.scss";
 
 .projects-container {
-    background: linear-gradient(30deg, rgba(110, 110, 110, 1) 0%, rgba(3, 80, 105, 1) 60%);
+    background:rgba(3, 80, 105, 1);
+    // background: linear-gradient(120deg, rgba(140, 140, 140, 1) 0%, rgba(3, 80, 105, 1) 60%);
 
     color: $white;
 
@@ -12,6 +13,31 @@
 
     .row:first-child {
         margin-bottom: 60px;
+    }
+
+    .project-col {
+        // text-align: center;
+
+        margin-bottom: 40px;
+
+        h4 {
+            margin-top: 20px;
+        }
+
+        p {
+            margin-top: 20px
+        }
+
+        
+        .tech-row {
+
+            color: rgb(210,210,210);
+
+            .badge {
+                margin-left: 5px;
+            }
+
+        }
     }
 
     

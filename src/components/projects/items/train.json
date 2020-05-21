@@ -1,0 +1,10 @@
+{
+    "name": "Online Training Platform",
+    "description": "Custom online training platform. Features include sections and learning modules, quizzes, custom PDF certificates upon completion, follow-along transcription, notes, bookmarks, timed content that appears in a sidebar at certain times for a module, and more.",
+    "images": ["train"],
+    "order": 3,
+    "tech": {
+        "fe": ["Javascript", "Custom JS framework", "CSS", "HTML"],
+        "be": ["Java", "JavaEE", "MySQL", "AWS", "S3/Cloudfront"]
+    }
+}
