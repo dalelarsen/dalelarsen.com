@@ -48,6 +48,7 @@ export default function ProjectItems() {//use this instead: https://www.gatsbyjs
                 }
                   
             }
+
         `);
 
     // console.log(data);
@@ -61,18 +62,19 @@ export default function ProjectItems() {//use this instead: https://www.gatsbyjs
     }
 
     return (
+        <div>
+            <Row className="justify-content-md-center">
+                {data.allItemsJson.edges.map(p => {
 
-        <Row className="justify-content-md-center">
-            {data.allItemsJson.edges.map(p => {
+                    return (
+                        <ProjectItem key={p.node.name} item={p.node} imgs={extractItemImg(p.node.images)} />
+                    )
+                })
+                }
 
-                return (
-                    <ProjectItem key={p.node.name} item={p.node} imgs={extractItemImg(p.node.images)} />
-                )
-            })
-            }
+            </Row>
 
-        </Row>
-
+        </div>
     )
 }
 

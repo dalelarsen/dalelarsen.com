@@ -10,6 +10,7 @@ import React from "react";
 //React Bootstrap
 // import Jumbotron from 'react-bootstrap/Jumbotron';
 import { Container, Row, Col } from 'react-bootstrap';
+import Resume from '../resume';
 
 //Icons
 // import { FaArrowDown } from 'react-icons/fa';
@@ -60,6 +61,8 @@ class Contact extends React.Component {
 
             </Col>
           </Row>
+
+          <Resume />
 
         </Container>
       </Container>

@@ -1,6 +1,7 @@
 // import { Link } from "gatsby";
 // import PropTypes from "prop-types";
 import React from "react";
+import { graphql, useStaticQuery } from "gatsby";
 // import Typist from 'react-typist';
 import scrollToElement from "scroll-to-element";
 
@@ -10,6 +11,7 @@ import scrollToElement from "scroll-to-element";
 //React Bootstrap
 // import Jumbotron from 'react-bootstrap/Jumbotron';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import Resume from '../resume';
 
 //Icons
 // import { FaArrowDown, FaBriefcase, FaListUl } from 'react-icons/fa';
@@ -19,6 +21,8 @@ import './about.scss';
 class About extends React.Component {
 
   render() {
+
+    
 
     const proYears = new Date().getFullYear() - 2008;
 
@@ -77,6 +81,8 @@ class About extends React.Component {
 
           <p>As the alternative healthcare industry is being heavily impacted by the effects of COVID-19, our clients have struggled and failed,
             causing that they can no longer continue to hire our services. Facing this situation, I will now join a company that I can continue to grow with.</p>
+
+          <Resume />
 
         </Container>
       </Container>
