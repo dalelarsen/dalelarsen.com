@@ -41,6 +41,11 @@ class ProjectItem extends React.Component {
         ) : null}
 
         <p>{item.description}</p>
+
+        {item.code ? (
+          <div class="tech-row"><span>Code: </span><a href={item.code}>{item.code}</a></div>
+        ) : null}
+
         <div class="tech-row">
           <span>Front End:</span>
           {item.tech && item.tech.fe && item.tech.fe.length > 0 ? (

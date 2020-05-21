@@ -26,6 +26,7 @@ export default function ProjectItems() {//use this instead: https://www.gatsbyjs
                             name
                             description
                             images
+                            code
                             tech {
                                 be
                                 fe

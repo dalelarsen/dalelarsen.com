@@ -3,6 +3,7 @@
     "description": "This website! Built a resume website for myself to further practice ReactJS and GraphQL.",
     "images": ["dalelarsen"],
     "order": 10,
+    "code": "https://github.com/dalelarsen/dalelarsen.com",
     "tech": {
         "fe": ["ReactJS", "Gatsby", "SCSS", "Bootstrap", "HTML5"],
         "be": ["GraphQL", "Netlify"]
