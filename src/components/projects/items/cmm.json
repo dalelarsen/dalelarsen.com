@@ -1,7 +1,7 @@
 {
     "name": "Central Member Management",
     "order": 9,
-    "description": "Member management tool for managing all aspects of custom member integration needs and support.",
+    "description": "Member management tool for managing all aspects of custom member integration needs and support. Features include contact management, lists, access control, history, activity tracking, member merge tool, custom integrations, and much more.",
     "images": ["cmm"],
     "tech": {
         "fe": [

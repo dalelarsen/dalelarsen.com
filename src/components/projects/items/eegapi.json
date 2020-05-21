@@ -1,6 +1,6 @@
 {
     "name": "EEGInfo NodeJS API",
-    "description": "NodeJS API for new services for EEGInfo.",
+    "description": "NodeJS API for new services and integrations for EEGInfo. Features include automated tasks from webhooks from Shopify and other events.",
     "images": ["eegapi"],
     "order": 5,
     "tech": {
