@@ -26,22 +26,33 @@ class Work extends React.Component {
 
           <h2>Work History</h2>
 
-          <h4>CEO</h4>
+          <h4>Senior Software Development Manager</h4>
           <div><strong>Fabuso</strong> - Ogden, UT</div>
-          <p>October 2017 to Present</p>
-          <p>After 10 years as the CTO and Senior Web Developer of Fabuso, I took the reins of the company as CEO. I continued to fulfill my previous duties and started leading/running all the affairs of the company.</p>
+          <p>September 2015 to Present</p>
+          <ul>
+            <li>Led and ran all the development and technology business needs of the company.</li>
+            <li>Oversaw the acquisition of new clients and managed our development team, developing much of the software myself.</li>
+            <li>Each new client involved building new custom software solutions, integrating 3rd party software, and migrating old systems to the corresponding replacements.</li>
+            <li>Continued to fulfill previous duties of Senior Web Developer.</li>
+          </ul>
 
-          <h4>CTO/Senior Full Stack Developer</h4>
+          <h4>Senior Full Stack Developer</h4>
           <div><strong>Fabuso</strong> - Ogden, UT</div>
-          <p>November 2007 to October 2017</p>
-          <p>As CTO of Fabuso and the Senior Web Developer I led the development team. Fabuso is a web development company that provides ongoing outsourced web development to its clients.</p>
-          <p>Oversaw the acquisition of new clients, managed the development team, and developed much of the software myself. Each new client involved building new custom software solutions, integrating 3rd party software, and migrating old systems to the corresponding replacements.</p>
-          
+          <p>November 2007 to September 2015</p>
+
+          <ul>
+            <li>Architected web applications, reviewing each project and choosing frameworks and solutions that best fit each one.</li>
+            <li>Managed development projects.</li>
+            <li>Built and maintained software according to client needs.</li>
+          </ul>
+
           <h4>Website Manager</h4>
           <div><strong>Achieve Auto Sales</strong> - Ogden, UT</div>
           <p>September 2002 to November 2005</p>
-          <p>Maintained company website for car dealership. Kept up to date daily inventory on website and launched and managed eBay&reg; listings for the cars.</p>
-          
+          <ul>
+            <li>Maintained company website for car dealership. Kept up to date daily inventory on website and launched and managed eBay&reg; listings for the cars.</li>
+          </ul>
+
         </Container>
       </Container>
 
