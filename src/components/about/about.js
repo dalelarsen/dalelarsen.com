@@ -79,8 +79,8 @@ class About extends React.Component {
           <p>We built many large scale web applications including an in-house member management tool, an online training platform, a custom discussion board,
             payment platforms/integrations, and much more.</p>
 
-          <p>As the alternative healthcare industry is being heavily impacted by the effects of COVID-19, our clients have struggled,
-            causing that they can no longer continue to hire our services. Facing this situation, I will now join a company that I can continue to grow with.</p>
+          {/* <p>As the alternative healthcare industry is being heavily impacted by the effects of COVID-19, our clients have struggled,
+            causing that they can no longer continue to hire our services. Facing this situation, I will now join a company that I can continue to grow with.</p> */}
             
           {/* <hr />
 
