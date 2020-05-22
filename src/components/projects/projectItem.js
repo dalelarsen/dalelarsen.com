@@ -28,7 +28,7 @@ class ProjectItem extends React.Component {
     const item = this.props.item;
     const imgs = this.props.imgs;
 
-    console.log('imgs', imgs);
+    // console.log('imgs', imgs);
 
     return (
 
