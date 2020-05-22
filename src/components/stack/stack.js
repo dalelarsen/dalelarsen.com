@@ -140,7 +140,17 @@ class Stack extends React.Component {
               <h2>Skills</h2>
             </Col>
           </Row>
-          <Row className="justify-content-md-center">
+          <Row>
+            <Col>
+
+              <p>I know how to architect web applications, reviewing each project and choosing frameworks and solutions that best fit each one. I have developed these from beginning to end and beyond.</p>
+              <p>I have learned and developed skills in project/team management as well as many programming languages, frameworks, and libraries. I have primarily focused on Javascript as it has become more and more widely available as a viable solution on all platforms.</p>
+              <p>I have developed several backends and APIs using Java and NodeJS with Express. I am experienced in SQL and NoSQL databases. I have also worked extensively with Firebase and its suite of developer solutions.</p>
+              <p>I am self-motivated and have proven that I can deliver short and long term needs. I currently work in a co-working space where I have been thriving for years. I can manage remote and in-house developers. I work very well in a remote environment.</p>
+
+            </Col>
+          </Row>
+          <Row style={{ marginTop: 60 }} className="justify-content-md-center">
             {/* <Row   xs={2} sm={3} md={4}> */}
             {tech.map(t => {
               return (

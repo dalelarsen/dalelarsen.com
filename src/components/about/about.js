@@ -22,7 +22,7 @@ class About extends React.Component {
 
   render() {
 
-    
+
 
     const proYears = new Date().getFullYear() - 2008;
 
@@ -57,7 +57,7 @@ class About extends React.Component {
             })}>Projects</Button>{' '}</Col>
           </Row>
 
-          <h5>From car dealership websites to large scale web applications</h5>
+          <h5>From car dealership websites to large scale web applications...</h5>
 
           <p>At the age of 16 I learned HTML and began building/maintaining a website for a local car dealership.
             I also managed the dealership's eBay&reg; listings for all their cars.</p>
@@ -79,8 +79,16 @@ class About extends React.Component {
           <p>We built many large scale web applications including an in-house member management tool, an online training platform, a custom discussion board,
             payment platforms/integrations, and much more.</p>
 
-          <p>As the alternative healthcare industry is being heavily impacted by the effects of COVID-19, our clients have struggled and failed,
+          <p>As the alternative healthcare industry is being heavily impacted by the effects of COVID-19, our clients have struggled,
             causing that they can no longer continue to hire our services. Facing this situation, I will now join a company that I can continue to grow with.</p>
+            
+          {/* <hr />
+
+          <p>I know how to architect web applications, reviewing each project and choosing frameworks and solutions that best fit each one. I have developed these from beginning to end and beyond.</p>
+          <p>I have learned and developed skills in project/team management as well as many programming languages, frameworks, and libraries. I have primarily focused on Javascript as it has become more and more widely available as a viable solution on all platforms. I am proficient in Javascript and can work well with all the major frameworks including Angular, AngularJS, React, jQuery, and VueJS.</p>
+          <p>I have developed several backends and APIs using Java and NodeJS with Express. I am experienced in SQL and NoSQL databases. I have also worked extensively with Firebase and its suite of developer solutions.</p>
+          <p>I am self-motivated and have proven that I can deliver short and long term needs. I currently work in a co-working space where I have been thriving for years. I manage a remote developer team but have also managed in-house employees. I work very well in a remote environment.</p> */}
+
 
           <Resume />
 

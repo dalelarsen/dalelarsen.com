@@ -9,7 +9,11 @@
     }
 
     .row:first-child {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        color: $white;
     }
 
     .stack-col {

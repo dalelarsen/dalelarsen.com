@@ -34,12 +34,9 @@ class Work extends React.Component {
           <h4>CTO/Senior Full Stack Developer</h4>
           <div><strong>Fabuso</strong> - Ogden, UT</div>
           <p>November 2007 to October 2017</p>
-          <p>I worked as CTO of Fabuso and was the Senior Developer. Fabuso is a web development company that provides ongoing outsourced web development to its clients. I have overseen the acquisition of new clients and have managed our development team, developing much of the software myself. Each new client involved building new custom software solutions, integrating 3rd party software, and migrating old systems to the corresponding replacements.</p>
-          <p>I know how to architect web applications, reviewing each project and choosing frameworks and solutions that best fit each one. I have developed these from beginning to end and beyond.</p>
-          <p>I have learned and developed skills in project/team management as well as many programming languages, frameworks, and libraries. I have primarily focused on Javascript as it has become more and more widely available as a viable solution on all platforms. I am proficient in Javascript and can work well with all the major frameworks including Angular, AngularJS, React, jQuery, and VueJS.</p>
-          <p>I have developed several backends and APIs using Java and NodeJS with Express. I am experienced in SQL and NoSQL databases. I have also worked extensively with Firebase and its suite of developer solutions.</p>
-          <p>I am self-motivated and have proven that I can deliver short and long term needs. I currently work in a co-working space where I have been thriving for years. I manage a remote developer team but have also managed in-house employees. I work very well in a remote environment.</p>
-
+          <p>As CTO of Fabuso and the Senior Web Developer I led the development team. Fabuso is a web development company that provides ongoing outsourced web development to its clients.</p>
+          <p>Oversaw the acquisition of new clients, managed the development team, and developed much of the software myself. Each new client involved building new custom software solutions, integrating 3rd party software, and migrating old systems to the corresponding replacements.</p>
+          
           <h4>Website Manager</h4>
           <div><strong>Achieve Auto Sales</strong> - Ogden, UT</div>
           <p>September 2002 to November 2005</p>
