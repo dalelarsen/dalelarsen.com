@@ -18,7 +18,7 @@ export default function Resume() {//use this instead: https://www.gatsbyjs.org/p
     const resumeQuery = useStaticQuery(graphql`
         query ResumeQuery {
 
-            file(relativePath: {eq: "DALE_LARSEN_Resume.pdf"}) {
+            file(relativePath: {eq: "Dale-Larsen-Resume.pdf"}) {
                 publicURL
                 name
             }
